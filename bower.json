@@ -34,5 +34,8 @@
   "devDependencies": {
     "angular-schema-form": ">= 0.7",
     "angular-mocks": ">= 1.2"
+  },
+  "resolutions": {
+    "angular": "1.5.8"
   }
 }
