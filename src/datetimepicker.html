@@ -1,4 +1,4 @@
-<div class="form-group" ng-class="{'has-error': hasError(), 'has-success': hasSuccess(), 'has-feedback': form.feedback !== false }">
+<div class="form-group" ng-class="{'has-error': form.disableErrorState !== true && hasError(), 'has-success': form.disableSuccessState !== true && hasSuccess(), 'has-feedback': form.feedback !== false }">
     <label class="control-label" ng-show="showTitle()">{{form.title}}</label>
     <div class="row">
         <div class="form-control-date">
